@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding:14px 14px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+li a:hover:not(.active) {
+    color:red;
+    font-size: 30px;
+}
+
+.active{
+    color:rgb(255, 123, 0);
+}
+
+body{
+    background-image: url(./ironman.jpg);
+}
+
+.content{
+    background: #ffffff;
+    padding:45px;
+    box-shadow: 4px 4px 8px rgb(255, 13, 13);
+    margin: 100px;
+}
+h2{
+    color:rgb(119, 8, 0);
+}
